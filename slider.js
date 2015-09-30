@@ -15,7 +15,7 @@ app.directive('ionslider',function($timeout){
             type:'@',
             prefix:'@',
             maxPostfix:'@',
-            prettify:'@',
+            prettify:'=',
             grid:'@',
             gridMargin:'@',
             postfix:'@',
